@@ -13,7 +13,18 @@ export default function Home() {
             Plura
           </h1>
         </div>
-        <div className="flex justify-center items-center relative md:mt-[-70px]"></div>
+        <div className="flex justify-center items-center relative md:mt-[-70px]">
+          <Image
+            src={"/assets/preview.png"}
+            alt="banner image"
+            height={1200}
+            width={1200}
+            className="rounded-tl-2xl rounded-tr border-2 border-muted"
+          />
+          <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 absolute z-10">
+            hi
+          </div>
+        </div>
       </section>
     </>
   );
